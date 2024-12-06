@@ -581,7 +581,7 @@ if ( is_admin() && ! class_exists( 'RT_Plugin_Report' ) ) {
 			if ( ! $message ) {
 				$message = esc_html__( 'No data available', 'plugin-report' );
 			}
-			return '<td class="pluginreport-cell-error">' . $message . '</td>';
+			return '<td class="pluginreport-cell-error" data-sort="0">' . $message . '</td>';
 		}
 
 
